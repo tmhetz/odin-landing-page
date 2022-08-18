@@ -99,6 +99,74 @@ body {
     overflow: hidden;
 }
 
+.container-five {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    margin: 32px;
+    margin-bottom: 0px;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bolder;
+    width: 800px;
+    text-align: end;
+    margin-top: 0px;
+}
+
+.container-six-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.container-six {
+    display: flex;
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 132px;
+    border-radius: 8px;
+}
+
+.container-six > button {
+    border-color: white;
+    border: solid;
+}
+
+.call-to-action {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-small {
+    font-size: 16px;
+    color: white;
+}
+
+.container-seven {
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 p, a {
     font-size: 18px;
     color: #E5E7EB;
