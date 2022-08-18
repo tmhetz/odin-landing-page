@@ -42,6 +42,63 @@ body {
     margin-top: -120px;
 }
 
+.container-three {
+    display: flex;
+    justify-content: center;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 210px;
+    justify-content: center;
+    gap: 0px
+}
+
+.butterfly-legs {
+    width: 200px;
+    margin-top: -10px;
+}
+
+.butterfly-camo {
+    width: 300px;
+    margin-left: -45px;
+    margin-top: -20px;
+}
+
+.butterfly-food {
+    width: 200px;
+    margin-top: -10px;
+}
+
+.butterfly-packs {
+    width: 300px;
+    margin-top: -10px;
+}
+
+.card > p {
+    text-align: center;
+    margin: 8px 0px;
+    color: #98999b;
+}
+
+.placeholder {
+    height: 200px;
+    width: 200px;
+    border: 5px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-style: solid;
+    overflow: hidden;
+}
+
 p, a {
     font-size: 18px;
     color: #E5E7EB;
@@ -64,5 +121,11 @@ button {
     padding: 8px 32px;
     border: none;
     text-align: center;
-    border-radius: 12px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
 }
